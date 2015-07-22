@@ -20,7 +20,7 @@ return true;
 <body>
 <form name="form" method="post" onsubmit="return validLogin();">
 <table width="250px" border=0 style="background-color:ffeeff;">
-<tr><td colspan=2 align="center" style="font-weight:bold;font-size:20pt;" align="center">User Login</td>
+<tr><td colspan=8 align="center" style="font-weight:bold;font-size:20pt;" align="center">User Login</td>
 </tr>
 <tr><td colspan=8>&nbsp;</td>
 </tr>
