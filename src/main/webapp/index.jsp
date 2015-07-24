@@ -27,7 +27,7 @@ return true;
 <tr><td style="font-size:20pt;" align="center">Login Name:</td>
 <td><input type="text" name="userName" value=""></td>
 </tr>
-<tr><td style="font-size:14pt;" align="center">Password:</td>
+<tr><td style="font-size:20pt;" align="center">Password:</td>
 <td><input type="password" name="password" value=""></td>
 </tr>
 <tr>
