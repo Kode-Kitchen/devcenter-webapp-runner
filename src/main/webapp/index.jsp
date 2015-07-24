@@ -24,7 +24,7 @@ return true;
 </tr>
 <tr><td colspan=8>&nbsp;</td>
 </tr>
-<tr><td style="font-size:14pt;" align="center">Login Name:</td>
+<tr><td style="font-size:20pt;" align="center">Login Name:</td>
 <td><input type="text" name="userName" value=""></td>
 </tr>
 <tr><td style="font-size:14pt;" align="center">Password:</td>
