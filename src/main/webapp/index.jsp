@@ -3,7 +3,7 @@
 <script>
 function validLogin(){
 if (document.form.userName.value == ""){
-alert ( "Login Name." );
+alert ( "Username." );
 document.loginform.userName.focus();
 return false;
 }
