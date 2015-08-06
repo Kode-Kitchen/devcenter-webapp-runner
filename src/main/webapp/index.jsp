@@ -8,7 +8,7 @@ document.loginform.userName.focus();
 return false;
 }
 if (document.form.password.value == ""){
-alert ( "Password  " );
+alert ( "Password Please " );
 document.userform.password.focus();
 return false;
 }
