@@ -2,7 +2,7 @@ language: java
 java:
  - 1.7
  - 1.8
-script: "mvn install"
+script: "mvn clean install"
 branches:
  only:
  - master
