@@ -18,6 +18,3 @@ deploy:
  on:
   branch: master
   condition: hello = hello
-after_success:
- script: echo "Finding war file.. Please wait"
- script: sudo find / -name *.war* 
