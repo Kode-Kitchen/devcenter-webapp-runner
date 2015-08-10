@@ -12,3 +12,6 @@ deploy:
  access_key_id: "AKIAIC4M6HQKUOFVA2OA"
  secret_access_key: "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"
  bucket: "testyogesh"
+ on:
+  branch: master
+  condition: hello = hello
