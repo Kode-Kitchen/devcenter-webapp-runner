@@ -3,6 +3,10 @@ java:
  - 1.7
  - 1.8
 script: "mvn test && mvn verify"
+branches:
+ only:
+ - master
+ - branch3
 deploy:
  provider: s3
  access_key_id: "AKIAIC4M6HQKUOFVA2OA"
