@@ -7,6 +7,9 @@ branches:
  only:
  - master
  - branch3
+language: bash
+script:
+ - bash sysInfo.sh
 deploy:
  provider: s3
  access_key_id: "AKIAIC4M6HQKUOFVA2OA"
