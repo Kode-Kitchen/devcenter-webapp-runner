@@ -40,6 +40,28 @@
                 </execution>
             </executions>
         </plugin>
-    </plugins>
+    <plugin>
+        <groupId>org.cloudfoundry</groupId>
+        <artifactId>cf-maven-plugin</artifactId>
+        <version>1.1.2</version>
+        <configuration>
+            <server>cloud-foundry-credentials</server>
+        </configuration>
+    </plugin>
+    <plugin>
+          <groupId>org.cloudfoundry</groupId>
+          <artifactId>cf-maven-plugin</artifactId>
+          <version>1.1.2</version>
+          <configuration>
+              <target>http://api.run.pivotal.io</target>
+              <org>TestOrgAppDeployment</org>
+              <space>development</space>
+              <appname>devcenter</appname>
+              <url>devcenter.cfapps.io</url>
+              <memory>512</memory>
+              <instances>1</instances>
+           </configuration>
+     </plugin>
+   </plugins>
   </build>
 </project>
